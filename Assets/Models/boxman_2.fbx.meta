@@ -1,0 +1,960 @@
+fileFormatVersion: 2
+guid: 6345a6df771503b4683156a488e6c5f0
+timeCreated: 1501541611
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: Foot.L
+    100006: Foot.L_end
+    100008: Foot.R
+    100010: Foot.R_end
+    100012: Forearm.L
+    100014: Forearm.R
+    100016: Hand.L
+    100018: Hand.L_end
+    100020: Hand.R
+    100022: Hand.R_end
+    100024: Head
+    100026: Head_end
+    100028: Hips
+    100030: Lower Spine
+    100032: Neck
+    100034: PlayerMesh
+    100036: Shin.L
+    100038: Shin.R
+    100040: Thigh.L
+    100042: Thigh.R
+    100044: Upper Arm.L
+    100046: Upper Arm.R
+    100048: Upper Spine
+    100050: ECBone
+    100052: ECBone 1
+    100054: ECBone_end
+    100056: ECB Bone Group
+    100058: ECB Control
+    100060: ECB Control_end
+    100062: ECB
+    100064: ECB Root
+    100066: ECB Root_end
+    100068: QWE
+    100070: Armature.001
+    100072: Bone
+    100074: Bone_end
+    100076: Armature.002
+    100078: Bone 1
+    100080: Bone_end 1
+    100082: ECB Bone
+    100084: ECB Bone_end
+    400000: Armature
+    400002: //RootNode
+    400004: Foot.L
+    400006: Foot.L_end
+    400008: Foot.R
+    400010: Foot.R_end
+    400012: Forearm.L
+    400014: Forearm.R
+    400016: Hand.L
+    400018: Hand.L_end
+    400020: Hand.R
+    400022: Hand.R_end
+    400024: Head
+    400026: Head_end
+    400028: Hips
+    400030: Lower Spine
+    400032: Neck
+    400034: PlayerMesh
+    400036: Shin.L
+    400038: Shin.R
+    400040: Thigh.L
+    400042: Thigh.R
+    400044: Upper Arm.L
+    400046: Upper Arm.R
+    400048: Upper Spine
+    400050: ECBone
+    400052: ECBone 1
+    400054: ECBone_end
+    400056: ECB Bone Group
+    400058: ECB Control
+    400060: ECB Control_end
+    400062: ECB
+    400064: ECB Root
+    400066: ECB Root_end
+    400068: QWE
+    400070: Armature.001
+    400072: Bone
+    400074: Bone_end
+    400076: Armature.002
+    400078: Bone 1
+    400080: Bone_end 1
+    400082: ECB Bone
+    400084: ECB Bone_end
+    4300000: PlayerMesh
+    7400000: Idle
+    7400002: Dash
+    7400004: Run
+    7400006: Jumpsquat
+    7400008: Crouch
+    7400010: Upfall
+    7400012: Freefall
+    7400014: Jab1
+    7400016: Foward Tilt
+    7400018: T
+    9500000: //RootNode
+    13700000: PlayerMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Armature|ArmatureAction
+      firstFrame: 1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Lower Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dash
+      takeName: Armature|ArmatureAction
+      firstFrame: 100
+      lastFrame: 112
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Lower Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Armature|ArmatureAction
+      firstFrame: 70
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Lower Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jumpsquat
+      takeName: Armature|ArmatureAction
+      firstFrame: 121
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Lower Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crouch
+      takeName: Armature|ArmatureAction
+      firstFrame: 125
+      lastFrame: 126
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Lower Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 125
+    - serializedVersion: 16
+      name: Upfall
+      takeName: Armature|ArmatureAction
+      firstFrame: 130
+      lastFrame: 131
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Lower Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 125
+    - serializedVersion: 16
+      name: Freefall
+      takeName: Armature|ArmatureAction
+      firstFrame: 140
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Lower Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 125
+    - serializedVersion: 16
+      name: Jab1
+      takeName: Armature|ArmatureAction
+      firstFrame: 150
+      lastFrame: 171
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Lower Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 125
+    - serializedVersion: 16
+      name: Foward Tilt
+      takeName: Armature|ArmatureAction
+      firstFrame: 180
+      lastFrame: 209
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Lower Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 125
+    - serializedVersion: 16
+      name: T
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Lower Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Lower Spine/Upper Spine/Upper Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Thigh.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/Thigh.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Hips/Thigh.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/Thigh.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: ECB
+        weight: 1
+      - path: ECB/ECB Bone
+        weight: 1
+      - path: ECB/ECB Bone/ECB Bone_end
+        weight: 1
+      - path: PlayerMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

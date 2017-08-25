@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxMan", "BoxMan.csproj", "{F7E74E9D-2F1A-9107-C6A5-6B18CABE2E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxMan.Editor", "BoxMan.Editor.csproj", "{63A62197-2B99-3105-B07A-95977980368B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7E74E9D-2F1A-9107-C6A5-6B18CABE2E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E74E9D-2F1A-9107-C6A5-6B18CABE2E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E74E9D-2F1A-9107-C6A5-6B18CABE2E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E74E9D-2F1A-9107-C6A5-6B18CABE2E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A62197-2B99-3105-B07A-95977980368B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A62197-2B99-3105-B07A-95977980368B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A62197-2B99-3105-B07A-95977980368B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A62197-2B99-3105-B07A-95977980368B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
